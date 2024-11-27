@@ -44,23 +44,22 @@ pip install opencv-python mediapipe pycaw
 - **`HandTrackingModule.py`**: 
   A module for detecting hand landmarks and calculating distances between points.
 
-- **`main.py`**:
+- **`VolumeHandControl.py`**:
   Contains the core logic for integrating gesture recognition with volume control.
 
 ---
 
 ## Setup and Usage
 1. Clone or download the repository.
-2. Place `HandTrackingModule.py` in the same directory as `main.py`.
-3. Run the `main.py` script:
+2. Place `HandTrackingModule.py` in the same directory as `VolumeHandControl.py`.
+3. Run the `VolumeHandControl.py` script:
    ```bash
-   python main.py
+   python VolumeHandControl.py
    ```
 4. Use the following gestures to control volume:
    - **Join Thumb and Index Finger**: Adjust the distance to increase or decrease volume.
    - **Stretch Fingers**: Maximum volume.
    - **Close Fingers**: Minimum volume.
-
 
 ---
 
